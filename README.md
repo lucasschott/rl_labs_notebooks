@@ -5,6 +5,7 @@ The labs are intended for being available to anyone through internet, so the ass
 
 Most of the work was done by Yasmine Hamdani (https://github.com/Yasmine-H ) during a one month master internship
 
+This is a fork of the repository https://github.com/osigaud/rl_labs_notebooks.git
 
 ## Getting Started
 
@@ -14,9 +15,8 @@ Most of the work was done by Yasmine Hamdani (https://github.com/Yasmine-H ) dur
 Get this repository using
 
 ```
-git clone https://github.com/osigaud/rl_labs_notebooks.git
+git clone https://github.com/lucasschott/rl_labs_notebooks.git
 ```
-
 
 ### Prerequisites
 
@@ -107,4 +107,6 @@ There are 10 *.ipynb files to open on Jupyter Notebook.
 
 ### Contact
 
-To contact me: Olivier.Sigaud@upmc.fr
+To contact me : lucas.schott97@gmail.com
+
+To contact the author of the original repo : Olivier.Sigaud@upmc.fr
