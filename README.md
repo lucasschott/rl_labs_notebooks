@@ -57,11 +57,11 @@ jupyter lab
 
 * and follow instructions from lab_instructions.ipynb
 
-When you finish working on the rl_labs
+When you stop working on the rl_labs
 
 * Termiate the jupyter lab process
 
-* Run
+* And run
 
 ```
 conda deactivate
