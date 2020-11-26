@@ -59,7 +59,7 @@ jupyter lab
 
 When you stop working on the rl_labs
 
-* Termiate the jupyter lab process
+* Terminate the jupyter lab process
 
 * And run
 
