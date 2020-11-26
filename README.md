@@ -5,7 +5,9 @@ The labs are intended for being available to anyone through internet, so the ass
 
 Most of the work was done by Yasmine Hamdani (https://github.com/Yasmine-H ) during a one month master internship
 
+
 ## Getting Started
+
 
 ### Download 
 
@@ -15,30 +17,60 @@ Get this repository using
 git clone https://github.com/osigaud/rl_labs_notebooks.git
 ```
 
+
 ### Prerequisites
 
-* Python 3.6
-* Jupyter Notebook
-* numpy
-* matplotlib
-* ipynb
+* Conda (See at the bottom of the page https://www.anaconda.com/products/individual to install it)
+
 
 ### Installation
 
+In a shell terminal at the root of the rl_labs_notebooks directory run
+
 ```
+conda deactivate
+
+conda create --name rl_lab python=3.6 pip
+
+conda activate rl_lab
+
 pip install -r requirements.txt
+```
 
-sudo updatedb
+If you don't want to work in the rl_labs for now run 
 
-path1=$(locate new_ipynb_utils/utils.py)
+```
+conda deactivate
+```
 
-path2=$(locate ipynb/utils.py)
+### Running the labs
 
-cat "$path1" > "$path2"
+In a shell terminal run at the root of the rl_labs_notebooks directory run
+
+```
+conda activate rl_lab
+
+jupyter lab
+```
+
+* copy/paste one of the given url in your web browser
+
+* and follow instructions from lab_instructions.ipynb
+
+When you finish working on the rl_labs
+
+* Termiate the jupyter lab process
+
+* Run
+
+```
+conda deactivate
 
 ```
 
-Note : In order to enable the imports between notebooks, we used the [ipynb library](https://github.com/ipython/ipynb). 
+### Note
+
+In order to enable the imports between notebooks, we used the [ipynb library](https://github.com/ipython/ipynb). 
 
 The syntax to import a function, say sarsa() from the reinforcement_learning notebook, is as follows:
 
@@ -46,8 +78,8 @@ The syntax to import a function, say sarsa() from the reinforcement_learning not
 from ipynb.fs.defs.reinforcement_learning import sarsa
 ```
 
-### Code
 
+### Code
 
 <br> 
 
@@ -72,15 +104,6 @@ There are 10 *.ipynb files to open on Jupyter Notebook.
 
 * the other notebooks are the different assignments of these labs, look at lab_instructions for more information.
 
-### Running the labs
-
-* open a terminal
-
-* run "jupyter notebook"
-
-* in your web browser, open "lab_instructions.ipynb"
-
-* and follow instructions from there
 
 ### Contact
 
